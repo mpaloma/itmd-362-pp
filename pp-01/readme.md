@@ -1,4 +1,4 @@
-## ITMD 362, Production Problem 1: Cloning and Committing to a Git Repository
+﻿## ITMD 362, Production Problem 1: Cloning and Committing to a Git Repository
 
 For this production problem, you will fork, clone, and commit and push changes to a
 remote GitHub repository. Follow the steps below exactly in order to receive full credit.
@@ -28,6 +28,7 @@ remote GitHub repository. Follow the steps below exactly in order to receive ful
    and write below the URL to your fork of the GitHub repository, and the add and commit:
 
    My Production Problems repository URL:
+	https://github.com/mpaloma/itmd-362-pp
 
 4. Next, push your commit to GitHub. `git push origin master` from your command line.
 
