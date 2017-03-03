@@ -1,0 +1,23 @@
+html {
+	font-size:1em;
+	line-height:1em;
+}
+
+h1 {
+	font-size:1.5em;
+	line-height:1.5em;
+}
+
+p {
+	padding:1em;
+}
+
+input {
+	padding:.5em;
+	border:.5em;
+}
+
+input[type="submit"] {
+	max-width:50%;
+	margin:2em;
+}
