@@ -15,13 +15,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+ 
+ html {
+	 font-family: 'Open Sans', sans-serif;
+ }
 
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Open Sans', sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -192,19 +196,46 @@ img, audio, video {
 */
 
 html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
+  font-family: Arial,sans-serif;
+  font-size: 1.25em;
+  line-height: 1em;
+  padding: 1em;
 }
 
 label {
   display: block;
+   
 }
-
+#age {
+  padding-left: 1em;
+}
+input {
+  background-color: #b9bcbd;
+  color: black;
+  height: 2.25em;
+  width: 80%;
+  padding: .5em;
+}
+h1 {
+  font-size: 1.5em;
+  line-height: 2.25em;
+}
+h1,p {
+  padding-bottom: .5em;
+}
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  float: left;
+}
+input[type="submit"] {
+  width: auto;
+  height: auto;
+  display: block;
+}
 /* ===== LAYOUT STYLES ====== */
-
 /* ===== MODULAR STYLES ===== */
-
+form li {
+  padding-bottom: 1em;
+}
 /* ===== STATE STYLES ======= */
-
